@@ -55,13 +55,14 @@ a:hover {
     color: black;
     padding: 15px;
     border-radius: 10px;
+    border: 2px solid burlywood;
 }
 
 .menu .secondary a {
     background: white;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid burlywood;
+    border: 2px solid burlywood;
     color: black;
 }
 
