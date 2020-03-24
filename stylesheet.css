@@ -4,7 +4,7 @@
     margin: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Calibri';
 }
 nav {
     background: #222;
@@ -37,6 +37,7 @@ a:hover {
 .menu .logo {
     margin-right: auto;
     padding: 15px;
+    font-family: 'Lobster', cursive;
 }
 
 .menu .button {
@@ -67,6 +68,60 @@ a:hover {
     color: black;
 }
 
+.main-head {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main h1 {
+    margin-bottom: 10px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .item {
+    text-align: center;
+}
+
+.main-container .item p {
+    padding: 0 13% 0 13%;
+}
+
+.footer {
+    background: black;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container ul li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33%;
+}
+
+.footer-container ul li a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-container ul img {
+    width: 10%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 @media (max-width: 806px) {
     body .menu {
         text-align: center;
@@ -75,6 +130,7 @@ a:hover {
         align-self: center;
         margin-right: 0;
         width: 100%;
+        font-size: 20px;
     }
 
     .menu .item {
@@ -99,5 +155,17 @@ a:hover {
     }
 
     .menu .secondary {
+    }
+
+    body .main h1, body .main h3 {
+        padding: 0 13% 0 13%;
+    }
+
+    .footer .footer-container ul {
+        flex-direction: column;
+    }
+
+    .footer .footer-container li {
+        width: 100%;
     }
 }
