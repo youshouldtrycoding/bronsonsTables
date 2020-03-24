@@ -157,6 +157,16 @@ a:hover {
     .menu .secondary {
     }
 
+    .main-head {
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+
+    .main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    }
+
     body .main h1, body .main h3 {
         padding: 0 13% 0 13%;
     }
