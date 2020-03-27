@@ -9,15 +9,16 @@ body {
 nav {
     background: #222;
     padding: 15px 40px;
+    border-bottom: 2px solid burlywood;
 }
 ul {
     list-style-type: none;
 }
-a {
+.header a, .footer a {
     color: white;
     text-decoration: none;
 }
-a:hover {
+.header a:hover, .footer a:hover {
     text-decoration: underline;
 }
 .logo a:hover {
@@ -74,11 +75,7 @@ a:hover {
     margin-bottom: 100px;
 }
 
-.main h1 {
-    margin-bottom: 10px;
-}
-
-.main-container {
+.index-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px 600px 600px;
@@ -86,16 +83,65 @@ a:hover {
     align-items: center;
 }
 
-.main-container .item {
+.index-main-container .item {
     text-align: center;
 }
 
-.main-container .item p {
+.index-main-container .item p {
+    padding: 0 13% 0 13%;
+}
+
+.about-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main-container .item {
+    text-align: center;
+}
+
+.about-main-container .item p {
+    padding: 0 13% 0 13%;
+}
+
+.products-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-main-container .item {
+    text-align: center;
+}
+
+.products-main-container .item p {
+    padding: 0 13% 0 13%;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-container .item {
+    text-align: center;
+}
+
+.contact-main-container .item p {
     padding: 0 13% 0 13%;
 }
 
 .footer {
     background: black;
+    border-top: 2px solid burlywood;
 }
 
 .footer-container ul {
