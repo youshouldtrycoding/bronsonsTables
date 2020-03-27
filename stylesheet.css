@@ -73,6 +73,7 @@ ul {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    font-family: 'Lobster', cursive;
 }
 
 .index-main-container {
@@ -126,7 +127,7 @@ ul {
 .contact-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600px 600px;
+    grid-template-rows: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -208,9 +209,24 @@ ul {
         margin-bottom: 30px;
     }
 
-    .main-container {
+    .index-main-container {
         grid-template-columns: 1fr;
         grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    }
+
+    .about-main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px;
+    }
+
+    .products-main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    }
+
+    .contact-main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px;
     }
 
     body .main h1, body .main h3 {
