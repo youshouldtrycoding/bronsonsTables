@@ -71,15 +71,15 @@ ul {
 
 .main-head {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'Lobster', cursive;
 }
 
 .index-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600px 600px 600px;
+    grid-template-rows: 500px 500px;
     justify-content: center;
     align-items: center;
 }
@@ -122,6 +122,28 @@ ul {
 
 .products-main-container .item p {
     padding: 0 13% 0 13%;
+}
+
+.products-bestsellers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.products-bestsellers .item {
+    text-align: center;
+}
+
+.products-bestsellers .item img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.products-bestsellers .item img:hover {
+    box-shadow: 0 0 20px burlywood;
 }
 
 .contact-main-container {
@@ -204,6 +226,10 @@ ul {
     .menu .secondary {
     }
 
+    .main {
+        background: none;
+    }
+
     .main-head {
         margin-top: 70px;
         margin-bottom: 30px;
@@ -211,7 +237,7 @@ ul {
 
     .index-main-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+        grid-template-rows: 500px 500px 500px 500px;
     }
 
     .about-main-container {
@@ -224,12 +250,18 @@ ul {
         grid-template-rows: 500px 500px 500px 500px 500px 500px;
     }
 
+    .products-bestsellers {
+        grid-template-columns: 1fr;
+        grid-row-gap: 80px;
+        margin-top: 50px;
+    }
+
     .contact-main-container {
         grid-template-columns: 1fr;
         grid-template-rows: 500px 500px;
     }
 
-    body .main h1, body .main h3 {
+    body h1, body h3 {
         padding: 0 13% 0 13%;
     }
 
@@ -240,4 +272,26 @@ ul {
     .footer .footer-container li {
         width: 100%;
     }
+}
+
+@media (min-width: 807px) {
+    .index-main h1, .index-main p {
+        color: white;
+    }
+
+    .index-main h1 {
+        font-size: 62px;
+        text-shadow: 0 0 80px black;
+    }
+
+    .index-main p {
+        text-shadow: 0 0 10px black;
+    }
+
+    .index-main {
+        background: url("backgrounds/tools.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 }
