@@ -191,6 +191,20 @@ ul {
     margin-right: 10px;
 }
 
+.login-main {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.login-main table {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 100%;
+    font-weight: bold;
+    background-color: white
+}
+
 @media (max-width: 806px) {
     body .menu {
         text-align: center;
@@ -286,6 +300,7 @@ ul {
 
     .index-main p, .about-main p, .contact-main p, .products-main p {
         text-shadow: 0 0 10px black;
+        font-size: 20px;
     }
 
     .index-main {
@@ -307,6 +322,12 @@ ul {
     }
 
     .products-main {
+        background: url("backgrounds/wood.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .login-main {
         background: url("backgrounds/wood.jpg");
         background-repeat: no-repeat;
         background-size: cover;
