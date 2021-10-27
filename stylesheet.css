@@ -294,4 +294,21 @@ ul {
         background-size: cover;
     }
 
+    .about-main {
+            background: url("backgrounds/office.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+    .contact-main {
+            background: url("backgrounds/telephone-booths.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+    .products-main {
+            background: url("backgrounds/wood.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
 }
