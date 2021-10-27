@@ -275,16 +275,16 @@ ul {
 }
 
 @media (min-width: 807px) {
-    .index-main h1, .index-main p {
+    h1, p, h2 {
         color: white;
     }
 
-    .index-main h1 {
+    .index-main h1, .about-main h1, .contact-main h1, .products-main h1 {
         font-size: 62px;
         text-shadow: 0 0 80px black;
     }
 
-    .index-main p {
+    .index-main p, .about-main p, .contact-main p, .products-main p {
         text-shadow: 0 0 10px black;
     }
 
@@ -301,7 +301,7 @@ ul {
     }
 
     .contact-main {
-        background: url("backgrounds/telephone-booths.jpg");
+        background: url("backgrounds/phones.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
